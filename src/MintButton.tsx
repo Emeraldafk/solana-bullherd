@@ -61,9 +61,9 @@ export const MintButton = ({
             variant="contained"
         >
             {!candyMachine ? (
-                "CONNECTING..."
+                 "CONNECTING..."
             ) : candyMachine?.state.isSoldOut ? (
-                'SOLD OUT'
+                 'SOLD OUT'
             ) : isActive ? (
                 isVerifying ? 'VERIFYING...' :
                     isMinting ? (
