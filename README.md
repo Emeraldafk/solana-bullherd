@@ -27,14 +27,11 @@ The Candy-Machine-Mint project is meant to be as simple and usable as possible, 
 
 ### Installation
 
-1. Fork the project, then clone down. Example:
-```
-git clone git@github.com:Soul-Dogs-City/candy-machine-v2-mint.git
-```
+1. Fork the project, then clone down.
 
 2. Build the project. Example:
 ```
-cd candy-machine-v2-mint
+cd "finding folder"
 yarn install
 yarn build
 ```
