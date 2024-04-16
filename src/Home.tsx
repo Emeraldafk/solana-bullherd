@@ -222,7 +222,7 @@ const Home = (props: HomeProps) => {
                 signTransaction: wallet.signTransaction,
               }}
               // // Replace with following when added
-              // gatekeeperNetwork={candyMachine.state.gatekeeper_network}
+              gatekeeperNetwork={candyMachine.state.gatekeeper_network}
               gatekeeperNetwork={
                 candyMachine?.state?.gatekeeper?.gatekeeperNetwork
               } // This is the ignite (captcha) network
